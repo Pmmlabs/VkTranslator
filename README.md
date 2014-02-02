@@ -1,4 +1,4 @@
-VkTranslator (<a href="http://userscripts.org/scripts/show/311768">Страница скрипта на userscripts.org</a>)
+VkTranslator
 ======
 
 Автоматический перевод входящих и исходящих сообщений на сайте ВКонтакте в разделе "Диалоги". Сервис перевода - Google Translate.
@@ -11,6 +11,7 @@ VkTranslator (<a href="http://userscripts.org/scripts/show/311768">Страни�
 
 <h4>Установка</h4>
 Скрипт устанавливается через дополнение для браузера. Для Firefox это <a href="https://addons.mozilla.org/ru/firefox/addon/greasemonkey/">Greasemonkey</a> или <a href="https://addons.mozilla.org/ru/firefox/addon/scriptish/">Scriptish</a>, для Chrome - <a href="https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=ru">Tampermonkey</a>
+Установить скрипт можно со <a href="http://userscripts.org/scripts/show/311768">страницы на userscripts.org</a>
 
 <h4>Известные проблемы, которые в данный момент исправляются:</h4>
 1. Так как ВКонтакте использует ajax-навигацию, при переходе в диалог ничего не произойдёт, поэтому нужно обновить страницу (F5)
