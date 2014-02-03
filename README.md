@@ -10,7 +10,7 @@ VkTranslator
 
 
 <h4>Установка</h4>
-Скрипт устанавливается через дополнение для браузера. Для Firefox это <a href="https://addons.mozilla.org/ru/firefox/addon/greasemonkey/">Greasemonkey</a> или <a href="https://addons.mozilla.org/ru/firefox/addon/scriptish/">Scriptish</a>, для Chrome - <a href="https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=ru">Tampermonkey</a>
+Скрипт устанавливается через дополнение для браузера. Для Firefox это <a href="https://addons.mozilla.org/ru/firefox/addon/greasemonkey/">Greasemonkey</a> или <a href="https://addons.mozilla.org/ru/firefox/addon/scriptish/">Scriptish</a>, для Chrome - <a href="https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=ru">Tampermonkey</a>. 
 Установить скрипт можно со <a href="http://userscripts.org/scripts/show/311768">страницы на userscripts.org</a>
 
 <h4>Известные проблемы, которые в данный момент исправляются:</h4>

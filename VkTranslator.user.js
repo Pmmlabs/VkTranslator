@@ -8,6 +8,8 @@
 // @grant		GM_xmlhttpRequest
 // @include        https://vk.com/im*
 // @include        https://vk.com/al_im*
+// @match		https://vk.com/im*
+// @match		https://vk.com/al_im*
 // @run-at         document-end
 // ==/UserScript==
 
@@ -74,7 +76,11 @@ unsafeWindow.IM.getTable(unsafeWindow.cur.peer).addEventListener('DOMNodeInserte
 
 // Построение панельки переводчика (внизу справа)
 var GoogleTranslateDiv = document.createElement('div');
-GoogleTranslateDiv.style = "position: fixed; bottom: 0; right: 0; background: white; border: 1px solid blue;";
+GoogleTranslateDiv.style.position = "fixed";
+GoogleTranslateDiv.style.bottom = 0;
+GoogleTranslateDiv.style.right = 0;
+GoogleTranslateDiv.style.background = "white";
+GoogleTranslateDiv.style.border = "1px solid blue";
 GoogleTranslateDiv.innerHTML = '<select id="GoogleTranslateSelect" style="background: transparent;">'+
 	'<option value="af">Afrikaans</option>'+
 	'<option value="sq">Albanian</option>'+
